@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca22b3ef-f4aa-42d1-9d01-ea01805a858d" name="默认更改列表" comment="" />
+    <list default="true" id="ca22b3ef-f4aa-42d1-9d01-ea01805a858d" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tree">
+  <component name="RunManager" selected="Python.show_kNN">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Machine_Leaning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,10 +183,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tree" />
-        <item itemvalue="Python.show_tree" />
-        <item itemvalue="Python.kNN" />
         <item itemvalue="Python.show_kNN" />
+        <item itemvalue="Python.show_tree" />
+        <item itemvalue="Python.tree" />
+        <item itemvalue="Python.kNN" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -217,7 +219,8 @@
       <workItem from="1569744518876" duration="68000" />
       <workItem from="1569744597759" duration="2694000" />
       <workItem from="1570187290417" duration="1729000" />
-      <workItem from="1570190045568" duration="814000" />
+      <workItem from="1570190045568" duration="2631000" />
+      <workItem from="1570261460193" duration="1072000" />
     </task>
     <servers />
   </component>
