@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca22b3ef-f4aa-42d1-9d01-ea01805a858d" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Naive_Bayes/bayes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_Bayes/bayes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Naive_Bayes/data/ham/23.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_Bayes/data/ham/23.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Naive_Bayes/data/ham/6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_Bayes/data/ham/6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Naive_Bayes/data/spam/17.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Naive_Bayes/data/spam/17.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +76,9 @@
       <module name="Machine_Leaning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Naive_Bayes" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -224,6 +224,9 @@
       <workItem from="1570261460193" duration="1072000" />
       <workItem from="1570545172208" duration="14000" />
       <workItem from="1570613182518" duration="920000" />
+      <workItem from="1570930327703" duration="40000" />
+      <workItem from="1570930451627" duration="12000" />
+      <workItem from="1570930510498" duration="34000" />
     </task>
     <servers />
   </component>
