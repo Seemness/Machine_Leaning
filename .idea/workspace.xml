@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca22b3ef-f4aa-42d1-9d01-ea01805a858d" name="默认更改列表" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic/data/testSet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logistic/logRegres.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Machine_Leaning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine_Leaning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,19 +25,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RKF3C3MtsIqNj6eUDRaD3AFVcc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Naive_Bayes/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Logistic/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\Machine_Leaning\kNN\data" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\WorkSpace\Machine_Leaning\kNN" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\Machine_Leaning\Logistic\data" />
+      <recent name="E:\WorkSpace\Machine_Leaning\kNN\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -49,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.bayes">
+  <component name="RunManager" selected="Python.logRegres">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Machine_Leaning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -94,20 +101,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="logRegres" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine_Leaning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kNN" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Logistic" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kNN/kNN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Logistic/logRegres.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.logRegres" />
         <item itemvalue="Python.bayes" />
         <item itemvalue="Python.show_kNN" />
         <item itemvalue="Python.show_tree" />
         <item itemvalue="Python.tree" />
-        <item itemvalue="Python.kNN" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +231,10 @@
       <workItem from="1570930327703" duration="40000" />
       <workItem from="1570930451627" duration="12000" />
       <workItem from="1570930510498" duration="34000" />
+      <workItem from="1570930913017" duration="4738000" />
+      <workItem from="1571215602391" duration="3508000" />
+      <workItem from="1571279271601" duration="8473000" />
+      <workItem from="1571316599144" duration="1656000" />
     </task>
     <servers />
   </component>
@@ -246,8 +254,16 @@
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="lineArr" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Machine_Leaning$tree.coverage" NAME="tree Coverage Results" MODIFIED="1569497416397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decision_Tree" />
+    <SUITE FILE_PATH="coverage/Machine_Leaning$logRegres.coverage" NAME="logRegres Coverage Results" MODIFIED="1571320646051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic" />
     <SUITE FILE_PATH="coverage/Machine_Leaning$kNN.coverage" NAME="kNN Coverage Results" MODIFIED="1569494341822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kNN" />
+    <SUITE FILE_PATH="coverage/Machine_Leaning$tree.coverage" NAME="tree Coverage Results" MODIFIED="1569497416397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decision_Tree" />
   </component>
 </project>
